@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.apresentacaoCurriculo {
+
+    padding: 5% 15%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    font-size: 20px;
+    font-family: "Krona One", sans-serif;
+    color: #f6f6f6
+
+}
+
+.apresentacaoCurriculoConteudo {
+
+    width: 615px; 
+    text-align: left; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.apresentacaoCurriculoConteudoIntroducaoParagrafo {
+
+    display: flex;
+    padding: 2% 0% 1% 3%;
+    font-size: 13px;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    color: #E0E0E0;
+
+}
+
+.apresentacaoCurriculoConteudoExperienciasParagrafo {
+
+    display: flex;
+    padding: 2% 0% 1% 3%;
+    font-size: 13px;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    color: #E0E0E0;
+
+}
+
+.apresentacaoConteudoCurriculoEstudosParagrafo {
+
+    display: flex;
+    padding: 2% 0% 1% 3%;
+    font-size: 13px;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    color: #E0E0E0;
+
+
+}
+
