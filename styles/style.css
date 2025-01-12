@@ -90,6 +90,12 @@ body {
     font-family: var(--fontePrimaria);
 }
 
+.apresentacaoTituloDestaque {
+
+    color: var(--corTerciaria);
+
+}
+
 .apresentacaoConteudoParagrafo {
     
     display: flex;
