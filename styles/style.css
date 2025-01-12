@@ -187,7 +187,13 @@ body {
     .cabecalhoMenu {
 
         justify-content: center;
+       
 
+    }
+
+    .cabecalhoMenuLink {
+
+        font-size: 2rem;
     }
 
     .apresentacao {
@@ -197,6 +203,12 @@ body {
 
     }
     .apresentacaoConteudo {
+
+        width: auto;
+
+    }
+
+    .rodape {
 
         width: auto;
 
