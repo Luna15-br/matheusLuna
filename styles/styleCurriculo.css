@@ -4,6 +4,16 @@
     
 }
 
+:root {
+
+    --corPrimaria: #000000;
+    --corSecundaria: #f6f6f6;
+    --corTerciaria: #4F4F9E;
+    --corCurriculo: #E0E0E0;
+    --corHovePrimaria: #272727;
+
+}
+
 .apresentacaoCurriculo {
 
     padding: 5% 15%;
@@ -12,7 +22,7 @@
     justify-content: space-between; 
     font-size: 20px;
     font-family: "Krona One", sans-serif;
-    color: #f6f6f6
+    color: var(--corSecundaria);
 
 }
 
@@ -34,7 +44,7 @@
     font-size: 13px;
     flex-direction: row;
     font-family: "Montserrat", sans-serif;
-    color: #E0E0E0;
+    color: var(--corCurriculo);
 
 }
 
@@ -45,7 +55,7 @@
     font-size: 13px;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
-    color: #E0E0E0;
+    color: var(--corCurriculo);
 
 }
 
@@ -56,7 +66,7 @@
     font-size: 13px;
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
-    color: #E0E0E0;
+    color: var(--corCurriculo);
 
 
 }

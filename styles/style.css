@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,601;1,601&display=swap');
 
+:root {
+
+    --corPrimaria: #000000;
+    --corSecundaria: #f6f6f6;
+    --corTerciaria: #4F4F9E;
+    --corHovePrimaria: #272727;
+    --fontePrimaria: "Krona One", sans-serif;
+    --fonteSecundaria: "Montserrat", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,12 +19,16 @@
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--corPrimaria);
+    color: var(--corSecundaria);
+
+
 }
 
 .apresentacaoTituloDestaque {
-    color: #4F4F9E;
+
+    color: var(--corSecundaria);
+
 }
 
 .cabecalho {
@@ -34,10 +48,10 @@ body {
 
 .cabecalhoMenuLink {
 
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonteSecundaria);
     font-size: 20px;
     font-weight: 600;
-    color: #4F4F9E;
+    color: var(--corTerciaria);
     text-decoration: none;
     
 
@@ -45,7 +59,7 @@ body {
 
 .cabecalhoMenuLink:hover {
 
-    background-color: #272727;
+    background-color: var(--corHovePrimaria);
     border-radius: 8px;
 
 }
@@ -73,7 +87,7 @@ body {
 .apresentacaoConteudoTitulo {
     
     font-size: 34px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--fontePrimaria);
 }
 
 .apresentacaoConteudoParagrafo {
@@ -81,7 +95,7 @@ body {
     display: flex;
     font-size: 22px;
     flex-direction: row;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonteSecundaria);
     
    
     
@@ -90,7 +104,7 @@ body {
 .foto {
     width: 515px; 
     height: auto;
-    border: 4px solid #4F4F9E;
+    border: 4px solid var(--corTerciaria);
     border-radius: 8px;
     margin-left: 30px;
 }
@@ -108,7 +122,7 @@ body {
 
 .apresentacaoLinkTitulo {
 
-    font-family: "Krona One", "sans-serif";
+    font-family: var(--fontePrimaria);
     font-weight: 400;
     font-size: 23px;
 
@@ -119,19 +133,19 @@ body {
     
     display: flex;
     justify-content: center;
-    border: 2px solid #4F4F9E;
+    border: 2px solid var(--corTerciaria);
     width: 360px;
     padding: 15px 30px;
     border-radius: 8px;
-    font-family: "Montserrat", "sans-serif";
+    font-family: var(--fonteSecundaria);
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--corSecundaria);
     font-weight: 600;
     font-size: 22px;
 }
 .apresentacaoLinkButton:hover{
 
-    background-color: #272727;
+    background-color: var(--corHovePrimaria);
 
 }
 
@@ -140,10 +154,10 @@ body {
 
     
     padding: 26px;
-    color: #000000;
-    background-color: #4F4F9E;
+    color: var(--corPrimaria);
+    background-color: var(--corTerciaria);
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonteSecundaria);
     font-size: 24px;
     width: 400;
     
