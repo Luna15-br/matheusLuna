@@ -23,19 +23,20 @@
     display: flex;
     align-items: center; 
     justify-content: space-between; 
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: var(--fontePrimaria);
     color: var(--corSecundaria);
+    gap: 80px;
 
 }
 
 .apresentacaoCurriculoConteudo {
 
-    width: 615px; 
+    width: 50%; 
     text-align: left; 
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.5rem;
 
 
 }
@@ -44,7 +45,7 @@
 
     display: flex;
     padding: 2% 0% 1% 3%;
-    font-size: 13px;
+    font-size: 1rem;
     flex-direction: row;
     font-family: var(--fonteSecundaria);
     color: var(--corCurriculo);
@@ -55,7 +56,7 @@
 
     display: flex;
     padding: 2% 0% 1% 3%;
-    font-size: 13px;
+    font-size: 1rem;
     flex-direction: column;
     font-family: var(--fonteSecundaria);
     color: var(--corCurriculo);
@@ -66,7 +67,7 @@
 
     display: flex;
     padding: 2% 0% 1% 3%;
-    font-size: 13px;
+    font-size: 1rem;
     flex-direction: column;
     font-family: var(--fonteSecundaria);
     color: var(--corCurriculo);
@@ -74,3 +75,23 @@
 
 }
 
+
+
+@media (max-width: 1200px) {
+
+    .apresentacaoCurriculo {
+
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .apresentacaoCurriculoConteudo {
+
+        width: auto;
+
+    }
+
+
+
+}
