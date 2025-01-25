@@ -40,34 +40,12 @@
 
 
 }
-
-.apresentacaoCurriculoConteudoIntroducaoParagrafo {
-
-    display: flex;
-    padding: 2% 0% 1% 3%;
-    font-size: 1rem;
-    flex-direction: row;
-    font-family: var(--fonteSecundaria);
-    color: var(--corCurriculo);
-
-}
-
-.apresentacaoCurriculoConteudoExperienciasParagrafo {
+.apresentacaoCurriculoConteudoParagrafo {
 
     display: flex;
     padding: 2% 0% 1% 3%;
     font-size: 1rem;
-    flex-direction: column;
-    font-family: var(--fonteSecundaria);
-    color: var(--corCurriculo);
-
-}
-
-.apresentacaoConteudoCurriculoEstudosParagrafo {
-
-    display: flex;
-    padding: 2% 0% 1% 3%;
-    font-size: 1rem;
+    margin-top: 0.75rem;
     flex-direction: column;
     font-family: var(--fonteSecundaria);
     color: var(--corCurriculo);
@@ -76,8 +54,7 @@
 }
 
 
-
-@media (max-width: 1200px) {
+@media (max-width: 720px) {
 
     .apresentacaoCurriculo {
 
@@ -85,10 +62,23 @@
         padding: 5%;
 
     }
+    .apresentacaoCurriculoConteudoTitulo {
+
+        font-size: 1.25rem;
+
+    }
+
+    .apresentacaoCurriculoConteudoIntroducaoParagrafo {
+
+        font-size: 1rem;
+
+    }
+
+
 
     .apresentacaoCurriculoConteudo {
 
-        width: auto;
+        width: 100%;
 
     }
 

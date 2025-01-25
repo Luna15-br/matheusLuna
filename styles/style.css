@@ -160,7 +160,7 @@ body {
 .rodape {
 
     
-    padding: 1.62rem;
+    padding: 1rem;
     color: var(--corPrimaria);
     background-color: var(--corTerciaria);
     text-align: center;
@@ -173,21 +173,23 @@ body {
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 720px) {
 
     .cabecalho {
 
         padding: 5%;
+        display: block;
+        grid-template-columns: 25% 50% 25%;
 
         
 
 
     }
 
-    .cabecalhoMenu {
 
-        justify-content: center;
+    .cabecalhoMenuLink {
 
+        font-size: 1rem;
     }
 
     .apresentacao {
@@ -198,7 +200,29 @@ body {
     }
     .apresentacaoConteudo {
 
-        width: auto;
+        width: 100%;
+
+    }
+
+    .apresentacaoConteudoTitulo {
+
+        font-size: 1.25rem;
+
+
+    }
+
+    .apresentacaoConteudoParagrafo {
+
+        font-size: 1rem;
+
+    }
+
+    .rodape {
+
+
+        width: 100%;
+        margin-top: 20%;
+        font-size: 1rem;
 
     }
 
